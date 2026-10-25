@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    margin: 0%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.nav{
+    background-color:#10213B;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 30px 10px 70px;
+}
+
+.logo{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding-left: 60px;
+}
+.logo span{
+    color: #A78BFA;
+}
+
+.links a{
+     color: aliceblue;
+     font-family: Arial, Helvetica, sans-serif;
+     text-decoration: none;
+}
+.links{
+    
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    gap: 20px;
+    margin-right: 80px;
+}
+.links a:hover{
+    color:blueviolet;
+}
+
+.Started{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 700px;
+    background-image: url(img/mount2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 450px;
+}
+.child{
+    color: aliceblue;
+     font-size: 25px;
+    padding: 80px 60px 90px 130px;
+
+}
+.child span{
+    color: #A78BFA;
+}
+.para{
+    font-size: 15px;
+    font-weight: 350px;
+}
+
+
+.btn{
+    background-color: #A78BFA;
+    color: aliceblue;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    border-radius: 25px;
+    font-weight: 15px;
+    position: relative;
+    top: -50px;
+    margin: -30px 120px 80px 130px;
+}
+
+.btn:hover{
+    background-color:rgb(87, 27, 144);
+}
+
+.hear{
+    padding: 30px 60px 30px 130px;
+    font-family:Arial, Helvetica, sans-serif;   
+}
+.hear p{ color: gray;}
+
+.Cards{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+}
+.Cards p{color: gray;}
+
+.card1{
+    position: relative;
+    background-color:#EEE8FF;
+    padding: 20px 30px;
+    margin-left: 115px;
+    width: 400px;
+    border-radius: 15px;  
+} 
+.card1:hover{ 
+   transform:translateY(-5px) ;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
+} 
+
+.badge{
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    background-color:blueviolet;
+    color: aliceblue;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight:bold;
+}
+button{
+    color:blueviolet;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight:bold;
+    border: none;
+    border-radius: 0px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+button:hover .arrow{transform: translateY(5px) 0.3s ease;}
+button:hover{ color: rgb(52, 16, 84);}
+
+.card2{
+    position: relative;
+    background-color: #E0F2FE;
+    padding: 10px 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 400px;
+    border-radius: 15px;
+}
+.card2:hover{ 
+    transform:translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.card3{
+    position: relative;
+    background-color: #DFF8EE;
+    padding: 20px 30px;
+    margin-right: 115px;
+    width: 400px;
+    border-radius: 15px;
+}
+.card3:hover{ 
+   transform:translateY(-5px) ;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
+} 
+
+.Conclo{
+    color:aliceblue;
+    background-color:#10213B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    line-height: normal;
+    letter-spacing: normal;
+    padding: 20px 20px;
+    margin: 0;
+    width: 100%;
+}
+.Conclo span{
+    color: #A78BFA;
+}
